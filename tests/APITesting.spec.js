@@ -5,7 +5,7 @@ test.skip('Get', async({request})=>{
 const response = await request.get('https://dummyjson.com/products');
 console.log(await response.json());
 await expect(await response.status()).toBe(200);
-});
+})
 
 test.skip('POST', async({request})=>{
     const response = await request.post('https://dummyjson.com/products/add', 
