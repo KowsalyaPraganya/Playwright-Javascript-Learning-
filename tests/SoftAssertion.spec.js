@@ -11,5 +11,4 @@ await page.goto('https://www.demoblaze.com');
 //Soft Assertions
 await expect.soft(page).toHaveTitle('STORE123');
 await expect.soft(page).toHaveURL('https://www.demoblaze.com/');
-
-})
+});
